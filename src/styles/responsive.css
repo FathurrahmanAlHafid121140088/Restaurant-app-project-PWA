@@ -1,0 +1,273 @@
+/* ============= RESPONSIVE ============= */
+
+@media screen and (max-width: 575px) {
+  .modal-box {
+    padding: 0 1rem;
+    max-width: 400px; /* Set maximum width to 400px */
+    margin: 0 auto; /* Center the modal-box horizontally */
+  }
+}
+
+@media screen and (min-width: 576px) {
+    header {
+      padding: 1rem 2rem;
+    }
+  
+    .form-search {
+      width: 20rem;
+    }
+  
+    .jumbotron-overlay {
+      padding: 1rem 2rem;
+    }
+  
+    .restaurant-list {
+      padding: 3rem 2rem;
+      width: 100%;
+    }
+  
+    .cards-box {
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .restaurant-list h2 {
+      margin-bottom: 3rem;
+    }
+  
+    .search-title {
+      margin-bottom: 3rem;
+    }
+  
+    footer {
+      padding: 0 2rem;
+    }
+  
+    .footer-box {
+      flex-direction: row;
+    }
+  
+    /* .detail-box {
+      height: 60vh;
+    } */
+  
+    .detail-overlay {
+      padding: 3rem 2rem;
+      grid-template-columns: 5fr 5fr;
+      grid-template-areas: 'detail-content detail-content-image';
+      gap: 2rem;
+      align-content: center;
+    }
+  
+    .detail-content {
+      grid-area: detail-content;
+    }
+  
+    .detail-content-image {
+      grid-area: detail-content-image;
+    }
+  
+    .detail-button-favorit {
+      top: 3rem;
+      right: 2rem;
+    }
+  
+    .menu-box h2 {
+      margin-bottom: 3rem;
+    }
+  
+    .menu-content {
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+  
+    .review-box {
+      padding: 3rem 2rem;
+    }
+  
+    .review-box h2 {
+      margin-bottom: 3rem;
+    }
+  
+    .modal-box {
+      padding: 0 1rem;
+    }
+  
+    .modal-review {
+      width: 20rem;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    header {
+      padding: 1rem 10rem;
+    }
+  
+    .nav-menu {
+      display: flex;
+      gap: 1rem;
+    }
+  
+    .form-search {
+      display: flex;
+    }
+  
+    .hamburger-menu {
+      display: none;
+    }
+  
+    .dropdown-menu {
+      display: none;
+    }
+  
+    .jumbotron-overlay {
+      padding: 1rem 10rem;
+    }
+  
+    .restaurant-list {
+      padding: 4rem 10rem;
+      width: 100%;
+    }
+  
+    .cards-box {
+        grid-template-columns: repeat(4, 1fr);
+      gap: 1rem;
+    }
+  
+    footer {
+      padding: 0 10rem;
+    }
+  
+    .footer-box {
+      flex-direction: row;
+    }
+  
+    .detail-box {
+      height: 70vh;
+    }
+  
+    .detail-overlay {
+      padding: 4rem 10rem;
+    }
+  
+    .detail-button-favorit {
+      top: 4rem;
+      right: 10rem;
+    }
+  
+    .menu-box {
+      margin-top: 4rem;
+      padding: 0 10rem;
+    }
+  
+    .menu-box h2 {
+      margin-bottom: 3rem;
+    }
+  
+    .review-box {
+      padding: 4rem 10rem;
+    }
+  
+    .review-box h2 {
+      margin-bottom: 3rem;
+    }
+  
+    .modal-box {
+      padding: 0 10rem;
+    }
+  
+    .modal-image {
+      position: relative;
+      width: 100%;
+      height: 32rem;
+    }
+  
+    .modal-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    header {
+      padding: 1rem 0;
+    }
+  
+    nav {
+      width: 1000px;
+      margin: 0 auto;
+    }
+  
+    .jumbotron {
+      width: 1000px;
+      margin: 0 auto;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+  
+    .jumbotron-overlay {
+      padding: 1rem 0rem;
+    }
+  
+    .restaurant-list {
+      padding: 3rem 0;
+      width: 1000px;
+      margin: 0 auto;
+    }
+  
+    footer {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+      background-color: #cde8e5;
+    }
+  
+    .detail-box {
+      width: 1000px;
+      height: 80vh;
+      margin: 0 auto;
+      border-radius: 0.5rem;
+      overflow: hidden;
+    }
+  
+    .detail-overlay {
+      padding: 4rem 2rem;
+    }
+  
+    .detail-button-favorit {
+      top: 2rem;
+      right: 2rem;
+    }
+  
+    .menu-box {
+      width: 1000px;
+      margin: 4rem auto 0 auto;
+      padding: 0;
+    }
+  
+    .review-box {
+      padding: 0;
+      margin: 4rem auto;
+      width: 1000px;
+    }
+  
+    .modal-box {
+      padding: 0;
+    }
+  
+    .modal-image {
+      margin: 0 auto;
+      position: relative;
+      width: 1000px;
+      height: 32rem;
+    }
+  
+    .modal-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 0.5rem;
+    }
+  }
+  

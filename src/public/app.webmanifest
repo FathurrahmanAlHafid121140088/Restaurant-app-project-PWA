@@ -1,0 +1,54 @@
+{
+  "id": "milkyWay-pwa-1",
+  "start_url": "./index.html",
+  "name": "MilkyWay Apps",
+  "short_name": "MilkyWay",
+  "description": "Free recomendation restaurant for you",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#cde8e5",
+  "icons": [
+    {
+      "src": "/icons/maskable-icon(1).png",
+      "sizes": "48x48",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon(2).png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon(3).png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon(4).png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon(5).png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon(6).png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
